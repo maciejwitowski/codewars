@@ -10,6 +10,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation(kotlin("test-junit"))
     testImplementation(kotlin("test-junit"))
 }
 tasks.withType<KotlinCompile>() {
